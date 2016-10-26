@@ -1,0 +1,18 @@
+{
+  "name": "testing-with-jasmine",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "Garvan",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garvank/testing-with-jasmine"
+  },
+  "scripts": {
+     "test": "grunt test"
+   },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jasmine": "^1.0.0"
+  }
+}
