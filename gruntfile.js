@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     pkg: package,
     jasmine: {
       test: {
-        src: ["src/built/solutions.built.js", "test/helpers/stubs/*.js"],
+        src: ["src/*.js", "test/helpers/stubs/*.js"],
         options: {
           keepRunner: true,
           outfile: ".grunt/_SpecRunner.html",
