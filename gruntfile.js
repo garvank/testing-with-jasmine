@@ -1,6 +1,5 @@
 module.exports = function(grunt) {
-  var uglifyBuildFiles = {},
-      package = grunt.file.readJSON('package.json');
+  var package = grunt.file.readJSON('package.json');
 
   // Configure Grunt
   grunt.initConfig({
